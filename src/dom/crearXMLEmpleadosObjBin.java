@@ -23,6 +23,7 @@ public class crearXMLEmpleadosObjBin {
 			oi = new ObjectInputStream(new FileInputStream("empleadosOBJ.dat"));
 			Empleado emp = null;
 			emp = (Empleado) oi.readObject();
+			//creamos el XML
 			DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 			DocumentBuilder db = dbf.newDocumentBuilder();
 			DOMImplementation implementacion = db.getDOMImplementation();
@@ -79,7 +80,7 @@ public class crearXMLEmpleadosObjBin {
 			transformer.setOutputProperty("{http://xml.apache.org/xslt}indent-amount", "4");
 			transformer.transform(source,  result); 
 			
-			// Mostramos el documento por pantalla especificando como canal de salida el System.out
+			// Mostramos el documento por consola especificando como canal de salida el System.out
 			Result console = new StreamResult(System.out);
 			transformer.transform(source, console);
 
