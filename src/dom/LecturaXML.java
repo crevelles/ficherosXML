@@ -17,7 +17,7 @@ public class LecturaXML {
 	public static void main(String[] args) {
 		
 		
-		//creamos instancia de DocumentBuiderFatory
+		//creamos instancia de DocumentBuiderFatory 
 		DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
 		try {
 			// creamos el doccumentbuilder para usarlo como parseador

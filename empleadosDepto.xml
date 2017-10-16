@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<empleados>
+    <empleado Fecha_alta="27/11/2016">
+        <departamento>
+            <id_departamento>10</id_departamento>
+            <nombre>marketing</nombre>
+            <localizacion>Madrid</localizacion>
+        </departamento>
+        <id>1</id>
+        <nombre>Alberto</nombre>
+        <salario>2000.0</salario>
+    </empleado>
+    <empleado Fecha_alta="27/11/2016">
+        <departamento>
+            <id_departamento>20</id_departamento>
+            <nombre>Contabilidad</nombre>
+            <localizacion>Sevilla</localizacion>
+        </departamento>
+        <id>2</id>
+        <nombre>Paco</nombre>
+        <salario>1500.5</salario>
+    </empleado>
+    <empleado Fecha_alta="27/11/2016">
+        <departamento>
+            <id_departamento>30</id_departamento>
+            <nombre>copmercial</nombre>
+            <localizacion>Bilbao</localizacion>
+        </departamento>
+        <id>3</id>
+        <nombre>Alejandro</nombre>
+        <salario>3000.4</salario>
+    </empleado>
+    <empleado Fecha_alta="27/11/2016">
+        <departamento>
+            <id_departamento>20</id_departamento>
+            <nombre>marketing</nombre>
+            <localizacion>Cordoba</localizacion>
+        </departamento>
+        <id>4</id>
+        <nombre>Ana</nombre>
+        <salario>2300.6</salario>
+    </empleado>
+    <empleado Fecha_alta="27/11/2016">
+        <departamento>
+            <id_departamento>10</id_departamento>
+            <nombre>Contabilidad</nombre>
+            <localizacion>Cuenca</localizacion>
+        </departamento>
+        <id>5</id>
+        <nombre>Patricia</nombre>
+        <salario>1900.1</salario>
+    </empleado>
+</empleados>
